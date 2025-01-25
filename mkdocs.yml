@@ -1,4 +1,11 @@
 site_name: Dragon of Icespire Peak - Docs
 site_url: https://adamhstewart.github.io/doip-docs
 theme:
-  name: material 
+  name: material
+nav:
+  - Welcome: index.md
+  - Using Avrae Commands:
+    - General Information: avrae.md
+    - character.md
+    - saves-checks.md
+    - combat.md

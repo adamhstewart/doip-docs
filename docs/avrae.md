@@ -1,6 +1,6 @@
 # General Avrae Documentation
 
-Avrae is a powerful tool for play-by-post games, but it can be a little daunting. This guid and the associated sub-pages should help a little with reference. In general, a certain set of commands will become important to your character, and in time you will learn those commands well.
+Avrae is a powerful tool for play-by-post games, but it can be a little daunting. This guide and the associated sub-pages should help a little with reference. In general, a certain set of commands will become important to your character, and in time you will learn those commands well.
 
 ## Basic Command Structure
 

@@ -1,10 +1,14 @@
 site_name: The Ironflame Guild - Docs
 site_url: https://adamhstewart.github.io/doip-docs
+repo_url: https://github.com/adamhstewart/doip-docs
+edit_uri: edit/main/docs/
 theme:
   name: material
   palette:
     primary: orange
     scheme: slate
+  features:
+    - content.action.edit
 nav:
   - Welcome: index.md
   - Server Rules:

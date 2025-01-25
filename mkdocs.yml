@@ -1,4 +1,4 @@
-site_name: Dragon of Icespire Peak - Docs
+site_name: The Ironflame Guild - Docs
 site_url: https://adamhstewart.github.io/doip-docs
 theme:
   name: material
@@ -9,3 +9,10 @@ nav:
     - character.md
     - saves-checks.md
     - combat.md
+  - Server Rules:
+    - general-rules.md
+    - game-rules.md
+    - discord-channels.md
+  - House Rules:
+    - hunting-foraging.md
+    - downtime.md

@@ -1,0 +1,4 @@
+site_name: Dragon of Icespire Peak - Docs
+site_url: https://adamhstewart.github.io/doip-docs
+theme:
+  name: material 

@@ -2,17 +2,22 @@ site_name: The Ironflame Guild - Docs
 site_url: https://adamhstewart.github.io/doip-docs
 theme:
   name: material
+  palette:
+    primary: orange
+    scheme: slate
 nav:
   - Welcome: index.md
+  - Server Rules:
+    - general-rules.md
+    - game-rules.md
+    - discord-channels.md
   - Using Avrae Commands:
     - General Information: avrae.md
     - character.md
     - saves-checks.md
     - combat.md
-  - Server Rules:
-    - general-rules.md
-    - game-rules.md
-    - discord-channels.md
+    - class-commands.md
   - House Rules:
     - hunting-foraging.md
     - downtime.md
+    - Harvesting Monsters: harvesting.md

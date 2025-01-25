@@ -1,6 +1,22 @@
 # General Avrae Documentation
 
-Roll some dice:
+Avrae is a powerful tool for play-by-post games, but it can be a little daunting. This guid and the associated sub-pages shoud help a little with reference. In genral, a certain set of commands will become important to your character, and in time you will learn those commmands well.
+
+## Basic command stucture
+
+All comands start with a `!` and are followed (with no space) by a command, which varies by the action you want to perform. Teh notation in this guide follows a format like this
+
+```sh
+!<command> <a required argument/flag> [an optional argument/flag]
+```
+
+Note:
+
+- items in `<>` are required
+- items in `[]` are optional
+- any item that has multiple word need to be enclosed in `""`
+
+For example, here's a simple dice roll:
 ```sh
 # Format: !roll <dice>
 !roll 1d12+3

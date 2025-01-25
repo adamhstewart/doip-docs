@@ -6,12 +6,12 @@ Linking a character sheet is needed for many of Avrae’s features. This will al
 To link a D&D Beyond character to the bot:
 
 ```sh
-!beyond https://ddb.ac/...
+!import https://ddb.ac/...
 ```
 
 To update the bot's version of your character from your sheet (e.g. after a level-up)
 ```sh
-!beyond update
+!update
 ```
 
 To show your character's current status (e.g. hit points, spell slots, etc,)

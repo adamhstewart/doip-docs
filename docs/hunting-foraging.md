@@ -1,6 +1,6 @@
 # Hunting & Foraging
 
-Hunting and Foraging can be done during travel and are dependent on the landscape in which you are travelling, Generally hunting and foraging can be performed twice a day during travel and extend your travel time by 1 hour each time it is performed (by any member of the party). The DM will give specific instruction if hunting or foraging can't occur or if there are different time allotmwents in a particular scenario.
+Hunting and Foraging can be done during travel and are dependent on the landscape in which you are traveling, Generally hunting and foraging can be performed twice a day during travel and extend your travel time by 1 hour each time it is performed (by any member of the party). The DM will give specific instruction if hunting or foraging can't occur or if there are different time allotments in a particular scenario.
 
 ## Hunting
 Hunting uses the `!hunting` Avrae command, and it should be executed in the `#dice-rolls` channel. The activity involves three steps: finding an animal or animals, killing it, and harvesting the meat. Each landscape has a different table of animals and different checks to be successful - survival for finding, weapon proficiency for killing, and survival again for harvesting. All three steps and the associated checks are run automatically by the Avrae bot.
@@ -11,7 +11,7 @@ Hunting uses the `!hunting` Avrae command, and it should be executed in the `#di
 !hunting grasslands
 ```
 
-The result of the roll will tell you if an animal was found, if you killed it, and how much meat you harvested. Any harvested meat must be added to your inventory and counts toward your encumberance.
+The result of the roll will tell you if an animal was found, if you killed it, and how much meat you harvested. Any harvested meat must be added to your inventory and counts toward your encumbrance.
 
 The following landscapes are available for hunting:
 

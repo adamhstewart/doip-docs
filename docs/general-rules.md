@@ -7,7 +7,7 @@
 
 4. **No Meta-Gaming:** Don’t use player knowledge to influence your character’s actions. Keep the game immersive and fun for everyone.
 
-5. **Respect Server Pacing:** Respond within 24 hours to posts in gameplay channels. If you need to slow down, let the group or DM know. If you’re inactive for more than a week without notice, your character may be NPC’d or removed.
+5. **Respect Server Pacing:** Respond within 24 hours to posts in game play channels. If you need to slow down, let the group or DM know. If you’re inactive for more than a week without notice, your character may be NPC’d or removed.
 
 6. **No Spamming or Off-Topic Posts:** Keep discussions in the appropriate channels. Limit memes and unrelated chatter to the "ooc-chat" or designated channels.
 

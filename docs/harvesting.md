@@ -12,11 +12,11 @@ We will use tables in the [Theive's Guild - Harvesting & Loot section](https://w
 
 For example, harvesting an Orchre Jelly has a DC10 Investigation check:
 
-- A successful check yeilds 1 lb of the jelly
+- A successful check yields 1 lb of the jelly
 - A failed save means that no harvest was made.
 
-## Addtitional Rules
+## Additional Rules
 
 - A monster can only be attempted once. Once a check has been failed, no other player can attempt it.
-- The player must add the amount of the harvest to their character sheet and count the weight toward their encumberance
-- The player should note the expitration of the material and consider it expired if it hasn't been consumed, crafted, or sold within that time.
+- The player must add the amount of the harvest to their character sheet and count the weight toward their encumbrance
+- The player should note the expiration of the material and consider it expired if it hasn't been consumed, crafted, or sold within that time.

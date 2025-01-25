@@ -1,10 +1,10 @@
 # General Avrae Documentation
 
-Avrae is a powerful tool for play-by-post games, but it can be a little daunting. This guid and the associated sub-pages shoud help a little with reference. In genral, a certain set of commands will become important to your character, and in time you will learn those commmands well.
+Avrae is a powerful tool for play-by-post games, but it can be a little daunting. This guid and the associated sub-pages should help a little with reference. In general, a certain set of commands will become important to your character, and in time you will learn those commands well.
 
-## Basic command stucture
+## Basic Command Structure
 
-All comands start with a `!` and are followed (with no space) by a command, which varies by the action you want to perform. Teh notation in this guide follows a format like this
+All commands start with a `!` and are followed (with no space) by a command, which varies by the action you want to perform. Teh notation in this guide follows a format like this
 
 ```sh
 !<command> <a required argument/flag> [an optional argument/flag]

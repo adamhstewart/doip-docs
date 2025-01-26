@@ -9,7 +9,7 @@ There aren't good aliases for this trait, but the attributes can be applied manu
 ```
 This will add 2 extra HP of radiance damage on any hit.
 
-## Healing Hands
+### Healing Hands
 To use healing hands:
 ```sh
 !a "Healing Hands" -t "Mal Elkhorn"

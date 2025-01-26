@@ -9,6 +9,7 @@ theme:
     scheme: slate
   features:
     - content.action.edit
+  logo: assets/images/logo.png
 nav:
   - Welcome: index.md
   - Server Rules:
@@ -21,7 +22,11 @@ nav:
     - saves-checks.md
     - combat.md
     - class-commands.md
+    - species-commands.md
   - House Rules:
     - hunting-foraging.md
     - downtime.md
     - Harvesting Monsters: harvesting.md
+extra:
+  generator: false
+copyright: Copyright &copy; 2025 Ironflame Guild

@@ -30,9 +30,23 @@ These are the full set of Arcane Shot command options.
 
 ## Druid
 
-## Wild Shape
+### Wild Shape
 
 To turn into a beast during combat use  `!wildshape <creature name>`. For example to turn into a wolf:
 ```sh
 !wildshape wolf
 ```
+
+## Sorcerer
+### Innate Sorcery
+As a bonus action when you unleash the simmering magic within you, use the following command:
+```sh
+!a "Innate Sorcery"
+```
+
+This will apply the +1 DC bonus to your spell casting for 1 minute. It will NOT add the advantage. You should do that manually with tha `adv` argument, for example:
+```sh
+!cast "Dissonant Whispers" -t GO1 adv
+```
+
+This would target Goblin 1 with the Dissonant Whispers spell. A +1 DC bonus would be applied along with advantage on the d20 roll.

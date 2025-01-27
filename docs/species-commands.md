@@ -9,6 +9,7 @@ These traits can be partially controlled by the `!celestial <type>` alias which 
 ```
 
 Will activate the Heavenly Wings version of Celestial Revelations. It does two things:
+
 1. It adds +2 radiant damage to all successful attacks
 2. It adds the "Celestial Revelations" condition to the character in initiative with the duration tracked, along with a note about the ability (in this case, that the character can fly)
 

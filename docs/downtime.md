@@ -93,11 +93,11 @@ TBD
 ### Training
 Downtime can be spent putting in the time to learn a new language, trade, or skill that you are partial to or think you'll need later. You may even fine tune your skills to an even more skilled state.
 
-**Resources:** Learning a skill, language, or tool proficiency costs a base of 30 days of downtime and 10 gp for day. The time and cost is reduced 5 days times the characters Intelligence modifier.
+**Resources:** Learning a skill, language, or tool proficiency costs a base of 30 days of downtime and 10 gp per day. The time and cost is reduced 5 days times the characters Intelligence modifier.
 
 Learning a standard language, an instrument, or gaming set costs half the downtime and gold. As a standard language, you can also learn a sign language for a language you know.
 
-To gain expertise, you cannot have gained expertise through this activity before and must spend 45 days of downtime, and 1500gp. This is separate from any potential costs related to gaining proficiency in the skill.
+To gain expertise, you cannot have gained expertise through this activity before and must spend 40 days of downtime, and 20 gp per day. The time and cost is reduced 5 days times the characters Intelligence modifier. This is separate from any potential costs related to gaining proficiency in the skill.
 
 
 **Resolution:** If learning a skill, select a skill from the starting skills of a class you have 3 or more levels in that you are not already proficient in. If learning a tool or language you are free to choose any.

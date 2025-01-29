@@ -14,8 +14,6 @@ To use Arcane shot after a hit on GO1 with your bow:
 
 These are the full set of Arcane Shot command options.
 ```powershell
-!arcane help - This message!
-!arcane ? - Also this message!
 !arcane banishing - performs a Banishing Arrow
 !arcane beguiling - performs a Beguiling Arrow
 !arcane bursting - performs a Bursting Arrow
@@ -27,6 +25,49 @@ These are the full set of Arcane Shot command options.
 -i - when added after the shot name will prevent the alias from expending a use of your Arcane Shot
 -t <target> - behaves the same as if you were targeting with your bow
 ```
+
+## Cleric
+### Channel Divinity
+You can channel energy directly from the Outer Planes to fuel magical effects. When you use this class’s Channel Divinity, you can choose which effect to create. You can use this class’s Channel Divinity 2 times per Long Rest, but can regain one expended use after finishing a Short Rest.
+
+The options of this spell can be used as follows:
+```sh
+!a "Channel Divinity: Divine Spark (Heal)" -t Fitz
+!a "Channel Divinity: Divine Spark (Damage)" -t GO1
+!a "Channel Divinity: Preserve Life" -t Oak
+!a "Channel Divinity: Turn Undead" -t ZO1 -t ZO2
+```
+
+Alternatively, you can shortcut in this way:
+The options of this spell can be used as follows:
+```sh
+!a "Channel Divinity" -t Fitz
+```
+
+and Avrae will prompt you to choose which Channel Divinity spell to use. In either case, Avrae will update the counter of your Channel Divinity uses.
+
+
+### Magic Initiate Spells
+In order to use your Magic Initiate spells, there's a small hack to get it to work initially. As a one-time setup, run:
+```sh
+!ccspellimport
+```
+
+After that, you can use:
+```sh
+!a "Bless" -t Fitz
+```
+
+and it will use your Magic Initiate counter rather than your spell slot. This is only relevant for leveled spells, cantrips can be cast normally since they don't use spell slots.
+
+### Life Domain Cleric
+When a spell you cast with a spell slot restores HP to a creature, that creature regains an additional 2 + the spell slot’s level. To utilize this trait, use teh following:
+
+```sh
+!lifecast "Cure Wounds" -l 2 -t Cailen
+```
+
+This will provide the appropriate bonus to your spell according to the level cast (in this case, level 2).
 
 ## Druid
 

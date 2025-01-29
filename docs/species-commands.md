@@ -23,3 +23,19 @@ To use healing hands:
 !a "Healing Hands" -t "Mal"
 ```
 This would add the appropriate number of HP to Mal.
+
+## Tiefling
+### Fiendish Legacy Spells
+Fiendish Legacy comes with  a limited use spell. To use it rather that using a spell slot, use the following command:
+
+```sh
+!a "Fiendish Legacy Spells: Ray of Sickness" -t GO1
+```
+
+Alternatively, this can be shortcutted to":
+
+```sh
+!a "Fiendish Legacy" -t GO1
+```
+
+This is only relevant for leveled spells, cantrips can be cast normally since they don't use spell slots.

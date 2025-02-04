@@ -89,14 +89,36 @@ Sometimes it pays to be bad. This activity gives a character the chance to make 
 
 **Resolution:** First choose a desired mark. The mark chosen affects the DC and reward.
 
-| DC | Cost | Value |
-| ----- | ----- | ----- |
-| 10 | 15 gp | 150 gp - robbery of a struggling merchant |
-| 15 | 25 gp | 250 gp - robbery of a prosperous merchant |
-| 20 | 50 gp | 500 gp - robbery of a noble |
-| 25 | 100 gp | 1,000 gp - robbery of one of the riches figures in town |
+#### Robbery Crimes
 
-To attempt the crime, the character makes three checks: Dexterity (Stealth); Charisma (Deception); and the player’s choice of Intelligence (Investigation) or Wisdom (Perception). The player can also choose to replace one of these skill checks with a tool check using either thieves’ tools, disguise kit, or forgery kit.
+| Crime | Payoff | Investment | DC |
+|---|---|---|---|
+| Robbery of a struggling merchant | 150 gp | 15 gp | 10 |
+| Robbery of a prosperous merchant | 250 gp | 25 gp | 15 |
+| Robbery of a noble | 500 gp | 50 gp | 20 |
+| Robbery of one of the richest people in town | 1000 gp | 100 gp | 25 |
+
+
+#### Forgery Crimes
+
+| Crime | Payoff | Investment | DC |
+|---|---|---|---|
+| Fake receipts & merchant ledgers | 150 gp | 15 gp | 10 |
+| Counterfeit trade licenses & travel papers | 250 gp | 25 gp | 15 |
+| Fake wills & property deeds | 500 gp | 50 gp | 20 |
+| Forge edicts & military orders | 1000 gp | 100 gp | 25 |
+
+
+#### Impersonation Crimes
+
+| Crime | Payoff | Investment | DC |
+|---|---|---|---|
+| Impersonate a common street hustler | 150 gp | 15 gp | 10 |
+| Impersonate a guild apprentice or merchant | 250 gp | 25 gp | 15 |
+| Impersonate a noble's attendant or minor official | 500 gp | 50 gp | 20 |
+| Impersonate an envoy or military commander | 1000 gp | 100 gp | 25 |
+
+To attempt the crime, the character makes three checks: Dexterity (Stealth); Charisma (Deception); and the higher of Intelligence (Investigation) or Wisdom (Perception). The player can also choose to replace the lowest of these skill checks with a tool check using either thieves’ tools (for robberies), disguise kit (for impersonations), or forgery kit (for forgeries) **only** if they have proficiency.
 
 If none of the checks are successful (0 of 3), the character is caught and jailed. The character must spend a number of downtime days in jail equal to the DC and pay a fine equal to the target value. At the player’s discretion, such a failure could involve additional forms of restitution or penance.
 
@@ -117,6 +139,14 @@ Complications. A life of crime is filled with complications. Roll on the Crime C
 |  6 | You robbed someone who was under a local crime lord’s protection, and who now wants revenge.     |
 |  7 | Your victim calls in a favor from a guard, doubling the efforts to solve the case.               |
 |  8 | Your victim asks one of your adventuring companions to solve the crime.                          |
+
+**Avrae**
+Roll for this activity using Avrae using the following format:
+
+```sh
+!crime <type> [tool|guidance]
+```
+
 
 **Sources:** XGte, CWM
 

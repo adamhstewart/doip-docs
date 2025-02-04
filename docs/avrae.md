@@ -4,7 +4,7 @@ Avrae is a powerful tool for play-by-post games, but it can be a little daunting
 
 ## Basic Command Structure
 
-All commands start with a `!` and are followed (with no space) by a command, which varies by the action you want to perform. Teh notation in this guide follows a format like this
+All commands start with a `!` and are followed (with no space) by a command, which varies by the action you want to perform. The notation in this guide follows a format like this
 
 ```sh
 !<command> <a required argument/flag> [an optional argument/flag]

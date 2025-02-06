@@ -76,9 +76,9 @@ Potions of healing fall into a special category for item crafting, separate from
 | Type | Time | Cost |
 |---|---|---|
 | Healing | 1 day | 25 gp |
-| Greater healing | 1 workweek | 100 gp |
-| Superior healing | 3 workweeks | 1,000 gp |
-| Supreme healing | 4 workweeks | 10,000 gp |
+| Greater healing | 5 days | 100 gp |
+| Superior healing | 15 days | 1,000 gp |
+| Supreme healing | 20 days | 10,000 gp |
 
 **Sources:** XGtE, CWM
 
@@ -176,7 +176,7 @@ TBD
 ### Religious Service/Devotion
 Characters with a religious bent might want to spend downtime in service to a temple, either by attending rites or by proselytizing in the community. Someone who undertakes this activity has a chance of winning the favor of the temple’s leaders.
 
-**Resources:** Performing religious service requires access to, and often attendance at, a temple whose beliefs and ethos align with the character’s. If such a place is available, the activity takes one workweek of time but involves no gold piece expenditure.
+**Resources:** Performing religious service requires access to, and often attendance at, a temple whose beliefs and ethos align with the character’s. If such a place is available, the activity takes 5 days but involves no gold piece expenditure.
 
 **Resolution:** At the end of the required time, the character chooses to make either an Intelligence (Religion) check or a Charisma (Persuasion) check. The total of the check determines the benefits of service, as shown on the table below.
 
@@ -190,7 +190,7 @@ A favor, in broad terms, is a promise of future assistance from a representative
 
 Favors earned need not be expended immediately, but only a certain number can be stored up. A character can have a maximum number of unused favors equal to 1 + the character’s Charisma modifier (minimum of one unused favor).
 
-**Complications:** Temples can be labyrinths of political and social scheming. Even the best-intentioned sect can fall prone to rivalries. A character who serves a temple risks becoming embroiled in such struggles. Every workweek spent in religious service brings a 10 percent chance of a complication, examples of which are on the Religious Service Complications table.
+**Complications:** Temples can be labyrinths of political and social scheming. Even the best-intentioned sect can fall prone to rivalries. A character who serves a temple risks becoming embroiled in such struggles. Every 5 days spent in religious service brings a 10 percent chance of a complication, examples of which are on the Religious Service Complications table.
 
 | d6 | Complication                                                                           |
 |----|----------------------------------------------------------------------------------------|

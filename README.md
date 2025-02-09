@@ -1,1 +1,1 @@
-Generated content available at https://adamhstewart.github.io/doip-docs
+Generated content available at https://ironflameguild.com.

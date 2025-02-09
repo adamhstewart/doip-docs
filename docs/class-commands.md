@@ -82,7 +82,7 @@ These are the full set of Arcane Shot command options.
 ### Hunter's Mark
 To track the uses and set the "Marked" effect on the combatant `!cast "Hunter's mark" -t GO1`
 
-To add damage, us "mark" in the attack on your marked combatant. For example, `!attack longbow mark -t GO1` attacks GO1 and adds the Hunter's Mark damage automatically.
+To add damage, use "mark" in the attack on your marked combatant. For example, `!attack longbow mark -t GO1` attacks GO1 and adds the Hunter's Mark damage automatically.
 
 *Unfortunately, this automation requires the player to remember which combatant is "marked" and to apply the "mark" snippet to the command manually.*
 
@@ -137,3 +137,24 @@ In order to actually extend the duration on a spell, you need to add a flag on t
 !cast "Calm Emotions" -t GO1 -dur 20
 ```
 This would cast the Calm Emotions spell on Goblin 1 and would add the effect for 20 rounds (2 minutes).
+
+## Warlock
+### Hex
+To track the uses and set the "Hex" effect on the combatant `!cast "Hex" -t GO1`
+
+To add damage, use "hex" in the attack on your hexed combatant. For example, `!cast "Eldritch Blast" -t GO1 hex` attacks GO1 and adds the Hex damage automatically.
+
+*Unfortunately, this automation requires the player to remember which combatant is "marked" and to apply the "mark" snippet to the command manually. It also cannot automatically apply disadvantage to an ability check, so that aspect of teh spell should be declared when using it.*
+
+A typical turn, applying and using Hex would go like this. First, use the bonus action to apply HHex to Goblin #1.
+
+```sh
+!cast "Hex" -t GO1
+
+And I am also Hexing his strength ability.
+```
+
+Next, cast Eldritch Blast on the Goblin, applying the Hex's extra damage (if you hit).
+```sh
+!cast "Eldritch Blast" -t GO1 hex
+```

@@ -1,32 +1,7 @@
 # Class Specific Commands
 
-## Fighter
-### Second Wind
-To use an instance of Second Wind:
-```sh
-!wind
-```
-### Arcane Shot
-To use Arcane shot after a hit on GO1 with your bow:
-```sh
-!arcane bursting -t GO1
-```
-
-These are the full set of Arcane Shot command options.
-```powershell
-!arcane banishing - performs a Banishing Arrow
-!arcane beguiling - performs a Beguiling Arrow
-!arcane bursting - performs a Bursting Arrow
-!arcane enfeebling - performs an Enfeebling Arrow
-!arcane grasping - performs a Grasping Arrow
-!arcane piercing - performs a Piercing Arrow
-!arcane seeking - performs a Seeking Arrow
-!arcane shadow - performs a Shadow Arrow
--i - when added after the shot name will prevent the alias from expending a use of your Arcane Shot
--t <target> - behaves the same as if you were targeting with your bow
-```
-
 ## Cleric
+
 ### Channel Divinity
 You can channel energy directly from the Outer Planes to fuel magical effects. When you use this class’s Channel Divinity, you can choose which effect to create. You can use this class’s Channel Divinity 2 times per Long Rest, but can regain one expended use after finishing a Short Rest.
 
@@ -45,7 +20,6 @@ The options of this spell can be used as follows:
 ```
 
 and Avrae will prompt you to choose which Channel Divinity spell to use. In either case, Avrae will update the counter of your Channel Divinity uses.
-
 
 ### Magic Initiate Spells
 In order to use your Magic Initiate spells, there's a small hack to get it to work initially. As a one-time setup, run:
@@ -72,10 +46,55 @@ This will provide the appropriate bonus to your spell according to the level cas
 ## Druid
 
 ### Wild Shape
-
 To turn into a beast during combat use  `!wildshape <creature name>`. For example to turn into a wolf:
 ```sh
 !wildshape wolf
+```
+
+## Fighter
+
+### Second Wind
+To use an instance of Second Wind:
+```sh
+!wind
+```
+### Arcane Shot
+To use Arcane shot after a hit on GO1 with your bow:
+```sh
+!arcane bursting -t GO1
+```
+
+These are the full set of Arcane Shot command options.
+```powershell
+!arcane banishing - performs a Banishing Arrow
+!arcane beguiling - performs a Beguiling Arrow
+!arcane bursting - performs a Bursting Arrow
+!arcane enfeebling - performs an Enfeebling Arrow
+!arcane grasping - performs a Grasping Arrow
+!arcane piercing - performs a Piercing Arrow
+!arcane seeking - performs a Seeking Arrow
+!arcane shadow - performs a Shadow Arrow
+-i - when added after the shot name will prevent the alias from expending a use of your Arcane Shot
+-t <target> - behaves the same as if you were targeting with your bow
+```
+
+## Ranger
+### Hunter's Mark
+To track the uses and set the "Marked" effect on the combatant `!cast "Hunter's mark" -t GO1`
+
+To add damage, us "mark" in the attack on your marked combatant. For example, `!attack longbow mark -t GO1` attacks GO1 and adds the Hunter's Mark damage automatically.
+
+*Unfortunately, this automation requires the player to remember which combatant is "marked" and to apply the "mark" snippet to the command manually.*
+
+A typical turn, applying and using Hunter's Mark would go like this. First, use the bonus action to apply Hunter's Mark to Goblin #1.
+
+```sh
+!cast "Hunter's Mark" -t GO1
+```
+
+Next, attack the Goblin with your longbow, applying the Hunter's Mark extra damage (if you hit).
+```sh
+!attack Longbow -t GO1 mark
 ```
 
 ## Sorcerer

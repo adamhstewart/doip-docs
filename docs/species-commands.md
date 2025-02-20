@@ -24,6 +24,16 @@ To use healing hands:
 ```
 This would add the appropriate number of HP to Mal.
 
+## Halfling
+### Halfling Luck
+Halfling Luck isn't applied automatically in Avrae, so you need to update your character settings to reflect it like so:
+
+```sh
+!csettings
+```
+
+Then click on "Gameplay Settings", choose "1" from the "Select Reroll" dropdown, Click "Back", and then "Exit."
+
 ## Tiefling
 ### Fiendish Legacy Spells
 Fiendish Legacy comes with  a limited use spell. To use it rather that using a spell slot, use the following command:

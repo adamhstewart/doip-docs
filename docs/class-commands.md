@@ -1,5 +1,21 @@
 # Class Specific Commands
 
+## Barbarian
+### Rage
+You can enter rage as a Bonus Action using the following command:
+
+```sh
+!a "Rage"
+```
+
+This will apply all resistance effects and damage bonuses for the length of the effect (10 minutes). According to the rules, to extend your rage from round to round, you need to either make an attack, or use a Bonus Action to extend it. Avrae will not automatically end the effects, unless it is told to.
+
+Your rage effect will be removed when combat ends. To end rage early, the DM can remove the effect with:
+
+```sh
+!i re <combatant name> Rage
+```
+
 ## Cleric
 
 ### Channel Divinity

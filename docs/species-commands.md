@@ -38,7 +38,7 @@ There is a bug in Avrae/Beyond that doesn't use the counter when this command is
 !cc "Fires's Burn" -1
 ```
 
-For a more graceful solution, you can override the default action with a custom one on the Avrae Dashboard - see more [here](custom-actions).
+For a more graceful solution, you can override the default action with a custom one on the Avrae Dashboard - see more [here](../custom-actions).
 
 ## Halfling
 ### Halfling Luck

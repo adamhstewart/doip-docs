@@ -3,10 +3,11 @@ Sometimes you want to add a custom action to your character. You can do so in th
 
 ## Adding a Custom Action
 
-On your dashboard, you can add an action by following these steps.
-1. Hover over your character and click on the tool icon to "Edit Action"
-2. To import one of the actions from below, click on the "Import YML" icon; otherwise, click "New..." To build your own action.
-3. Paste the code from the option below into the space provided and click "Import"
+On your dashboard, you can add an action by following these steps:
+
+1. Hover over your character and click on the tool icon to "Edit Action."
+2. To import one of the actions from below, click on the "Import YML" icon; otherwise, click "New..." to build your own action.
+3. Paste the code from the option below into the space provided and click "Import."
 4. Click Save and Exit.
 
 Your custom action should be usable by running `!a "Action Name"` in Discord.

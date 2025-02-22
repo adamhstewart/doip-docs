@@ -1,5 +1,6 @@
 # Custom Actions
-Sometimes you want to add a custom action to your character. You can do so in the [Avrae dashboard](https://avrae.io/dashboard/characters)
+Sometimes you want to add a custom action to your character. You can do so in the <a href="https://avrae.io/dashboard/characters" target="_blank">Avrae dashboard</a>.
+
 
 ## Adding a Custom Action
 

@@ -24,6 +24,22 @@ To use healing hands:
 ```
 This would add the appropriate number of HP to Mal.
 
+##Goliath
+### Fire Giant
+A Fire Giant can expend a use of Fire's Burn to cause an additional 1d10 of fire damage on a successful hit. After a hit, you can run this command to apply the damage to a target:
+
+```sh
+!a "Fire's Burn" -t GO1
+```
+
+There is a bug in Avrae/Beyond that doesn't use the counter when this command is issued. To manually use the counter, run this command:
+
+```sh
+!cc "Fires's Burn" -1
+```
+
+For a more graceful solution, you can override the default action with a custom one on the Avrae Dashboard - see more [here](custom-actions).
+
 ## Halfling
 ### Halfling Luck
 Halfling Luck isn't applied automatically in Avrae, so you need to update your character settings to reflect it like so:

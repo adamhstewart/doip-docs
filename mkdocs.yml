@@ -28,6 +28,7 @@ nav:
   - House Rules:
     - hunting-foraging.md
     - downtime.md
+    - bastions.md
     - Harvesting Monsters: harvesting.md
 extra:
   generator: false

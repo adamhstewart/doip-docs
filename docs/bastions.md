@@ -1,5 +1,5 @@
 # Bastions
-Generally, we will follow the bastion rules as laid out in the DNG (Chapter 8), particularly in terms of acquiring bastions, the number of rooms and special facilities, and bastion turns.
+Generally, we will follow the bastion rules as laid out in the DNG (Chapter 8), particularly in terms of acquiring bastions, the number of rooms and special facilities.
 
 ## Entry into the Campaign
 In order to enter into the campaign and have mechanical benefit, the bastion needs three things:
@@ -11,7 +11,33 @@ In order to enter into the campaign and have mechanical benefit, the bastion nee
 ## Rooms
 An initial bastion has 2 basic facilities (for flavor and roleplay) and 2 special facilities (for roleplay and mechanical benefit). Of the basic facilities, one is roomy (16 squares), and one is cramped (4 squares). The special facilities size is defined by the type of facility.
 
-Additional rooms can be purchased and existing rooms can be expanded according to the following table:
+### Basic Rooms
+
+These are the basic rooms you can build:
+
+- Bedroom
+- Dining Room
+- Parlor
+- Courtyard
+- Kitchen
+- Storage
+
+Additional rooms can be purchased and existing rooms can be expanded according to cost and time that will be determined.
+
+### Special Facilities
+
+These are the special facilities available to level 5 characters:
+- Arcane Study
+- Armory
+- Barrack
+- Garden
+- Library
+- Sanctuary
+- Smithy
+- Storehouse
+- Workshop
+
+Descriptions are in the DMG - see below about material costs and benefits.
 
 ## Benefits from Special Facilities
 
@@ -24,7 +50,7 @@ There are several significant exceptions from the DMG on the mechanical benefits
 *We will eventually establish a formal table for costs and benefits, it just seems easier to negotiate this on an as needed basis rather than write a whole set of rules up front. To me, the DMG costs/benefits seem way out of scale to the disadvantage of players.*
 
 ## Hirelings
-Spacial facilities has a number of hirelings designated by its type. These hirelings are supported by the bastion activities and don't cost you additional gold.
+Special facilities have a number of hirelings designated by its type. These hirelings are supported by the bastion activities and don't cost you additional gold.
 
 - Name
 - Stat Block: the stat block is always commoner, unless another type is mutually agreed upon with the DM.

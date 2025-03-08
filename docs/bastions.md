@@ -43,11 +43,11 @@ Descriptions are in the DMG - see below about material costs and benefits.
 
 There are several significant exceptions from the DMG on the mechanical benefits from special facilities:
 
-- The time and material cost for crafting, harvesting, and recruiting will be scaled for our economy - don't automatically use the time and values listed in the DMG - before giving a particular order to your bastion, sort our the costs with the DM
+- The time and material cost for crafting, harvesting, and recruiting will be scaled for our economy - don't automatically use the time and values listed in the DMG - before giving a particular order to your bastion, sort out the costs with the DM
 - The benefits of a special facility will also be scaled for our economy - consult with the DM before you assume the benefits of an order to that facility.
 - There will be no limitations on 5th-level special facilities (e.g. an Arcane Study can craft common or uncommon magic items).
 
-*We will eventually establish a formal table for costs and benefits, it just seems easier to negotiate this on an as needed basis rather than write a whole set of rules up front. To me, the DMG costs/benefits seem way out of scale to the disadvantage of players.*
+*We will eventually establish a formal table for costs and benefits, it just seems easier to negotiate this on an 'as needed' basis rather than write a whole set of rules up front. To me, the DMG costs/benefits seem way out of scale to the disadvantage of players.*
 
 ## Hirelings
 Special facilities have a number of hirelings designated by its type. These hirelings are supported by the bastion activities and don't cost you additional gold.

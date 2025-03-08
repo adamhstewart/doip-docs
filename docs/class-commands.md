@@ -113,6 +113,22 @@ Next, attack the Goblin with your longbow, applying the Hunter's Mark extra dama
 !attack Longbow -t GO1 mark
 ```
 
+## Rogue
+### Sneak Attack/Cunning Strike
+On a successful attack, where sneak attack damage is appropriate, roll a separate die for the sneak attack damage.
+
+```sh
+!attack sneak -t GO1
+```
+
+If you want to apply cunning strike to your sneak attack, add an option to the sneak attack roll:
+
+```sh
+!attack sneak -t GO1 -choice poison
+```
+
+The options are `poison`, `trip`, `withdraw`
+
 ## Sorcerer
 ### Innate Sorcery
 As a bonus action when you unleash the simmering magic within you, use the following command:

@@ -94,6 +94,73 @@ These are the full set of Arcane Shot command options.
 -t <target> - behaves the same as if you were targeting with your bow
 ```
 
+## Monk
+### Agile Perry
+To use Agile Perry after an unrarmed strike (and you are holding a Kensei weapon), you can take the agile perry action
+
+```sh
+!a "Agile Perry"
+```
+
+You can also add it to the attack like this:
+
+```sh
+!a "Unarmed Strike" -t GO1 perry
+```
+
+### Deflect Attack
+To deflect the damage from an attack use the Deflect Attack action to automatically roll the die and apply the HP back to your character.
+
+```sh
+!a "Deflect Attack"
+```
+
+If the damage is reduced to zero, you can expend a focus point to redirect the attack
+```sh
+!a "Deflect Attack: Redirect Attack" -t OA3
+!cc "Focus Points" -1
+```
+Note: There is a bug in this action which requires you to deduct the focus point manually. Be sure you have a focus point available before you use the action. You can check your focus points with `!cc "Focus Points"`.
+
+### Flurry of Blows
+To properly deduct focus points, use the Flurry of Blows action first, followed by the additional unarmed strike.
+
+```sh
+!a "Flurry of Blows"
+!a "Unarmed Strike: -t GO1
+```
+### Focused Patient Defense
+Only use this action if you want to use the "focused" patient defense as it will deduct a focus point and add the dodge effect to your character. If you just want the normal patient defense, just use it for free as a disengage bonus action.
+
+```sh
+!a "Patient Defense"
+```
+
+### Step of the Wind
+There are three options for this action, the last (dash and disengage) deducts a focus point.
+
+```sh
+!a "Step of the Wind (Dash)"
+!a "Step of the Wind (Disengage)"
+!a "Step of the Wind (Dash and Disengage)"
+```
+
+Alternatively, you can use:
+
+```sh
+!a step
+```
+Avrae will prompt you to choose one of the above actions.
+
+### Uncanny Metabolism
+When you roll initiative, you can also take the Uncanny Metabolism action, which will restore your focus points and some HP.
+
+```sh
+!init join
+!move J13
+!a "Uncanny Metabolism"
+```
+
 ## Ranger
 ### Hunter's Mark
 To track the uses and set the "Marked" effect on the combatant `!cast "Hunter's mark" -t GO1`

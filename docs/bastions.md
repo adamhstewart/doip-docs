@@ -49,6 +49,14 @@ There are several significant exceptions from the DMG on the mechanical benefits
 
 *We will eventually establish a formal table for costs and benefits, it just seems easier to negotiate this on an 'as needed' basis rather than write a whole set of rules up front. To me, the DMG costs/benefits seem way out of scale to the disadvantage of players.*
 
+### Benefits Table
+| Special Facility| Order | Material Gain |
+|-----|-----|-----|
+| Garden - Decorative | Harvest | 10 exquisite floral bouquets (worth 5 GP each), ten vials of Perfume, or ten Candles. Can be added to inventory or sold for **50 GP**. |
+| Garden - Food | Harvest | Garden of delicious mushrooms or vegetables	100 days worth of Rations. Can be added to inventory or sold for **50 GP**. |
+| Garden - Herb | Harvest | Garden of rare herbs which are the used to create either ten Healer’s Kits or two Potions of Healing. Can be added to inventory or sold for **50 GP**. |
+| Garden - Poison | Harvest | Garden stocked with plants and fungi, which are then used to create either two vials of Antitoxin or one vial of Basic Poison. Can be added to inventory or sold for **50 GP**. |
+
 ## Hirelings
 Special facilities have a number of hirelings designated by its type. These hirelings are supported by the bastion activities and don't cost you additional gold.
 
@@ -78,3 +86,4 @@ On every bastion turn (not just when the maintain order is issued), the DM will 
 Characters can share bastions with as many other characters as they want. The only impacts will be on the physical space of the bastion, and likely the flavor and roleplay of the bastion turns. Each player controls their own special facilities and their own hireling - they issue their own orders and receive the material gain themselves.
 
 The one mechanical implication of a shared bastion is that some bastion events may impact the entire bastion. For instance an attack on one bastion could have material implications for the entire bastion.
+

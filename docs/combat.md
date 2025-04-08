@@ -33,7 +33,7 @@ Attack rolls for both attack and damage at once. The format is:
 !attack <weapon> [flags|arguments]
 ```
 
-Here are a some examples of attack rolls. Note that if the weapon's name is more than one word, it needs to be in quotes.
+Here are a some examples of attack rolls. Note that if the weapon's name is more than one word, it needs to be in quotes:
 ```sh
 !attack longsword -t GO1
 !attack "unarmed strike" -t OR1
@@ -43,7 +43,7 @@ Here are a some examples of attack rolls. Note that if the weapon's name is more
 
 Some attacks might offer variations, which can be picked with the use of `choice`:
 ```sh
-!a "Sneak Attack" -t oR1 -choice trip
+!a "Sneak Attack" -t OR1 -choice trip
 ```
 
 ### Example Melee Turn

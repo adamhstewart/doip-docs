@@ -33,11 +33,17 @@ Attack rolls for both attack and damage at once. The format is:
 !attack <weapon> [flags|arguments]
 ```
 
-Here are a some examples of attack rolls. Note that if the weapon's name is more than one word, it needs to be in quotes:
+Here are a some examples of attack rolls. Note that if the weapon's name is more than one word, it needs to be in quotes.
 ```sh
 !attack longsword -t GO1
 !attack "unarmed strike" -t OR1
 !a halberd -t MA1 adv
+!a dagger -rr 2 -t GO1
+```
+
+Some attacks might offer variations, which can be picked with the use of `choice`:
+```sh
+!a "Sneak Attack" -t oR1 -choice trip
 ```
 
 ### Example Melee Turn
@@ -89,7 +95,8 @@ An example of a proper command with a target and advantage.
 Some other common flags:
 
 - `-i ` Ignores spell slots and spellbooks, e.g. casting as a ritual or item.
--  `-rr` Roll multiple times, such as for a warlock's multiple Eldritch Blasts.
+- `-rr` Roll multiple times, such as for a warlock's multiple Eldritch Blasts.
+- `-choice` Some attacks or spells can offer variants, e.g. using "Sneak Attack" with the variant of Trip/Prone.
 - `-with <int/wis/cha>` Uses a different skill base for DC/AB (will not account for extra bonuses)
 
 ### Example Spellcasting Turn
@@ -131,4 +138,10 @@ Roll a concentration check:
 # -dc #          Set the DC for the check. Returns a simpler "Success!" or "Fail!" dialog.
 # -t "target"    Specify who is making the check.
 !conc -dc 15 -t "Mind Flayer"
+```
+
+Use a class/build specific reaction:
+```sh
+# -amt #         Amount of damage taken
+!a uncanny dodge -amt 12
 ```

@@ -101,6 +101,5 @@ Manually edit your character’s available spell slots:
 Manually edit your character’s available custom counters:
 ```powershell
 # Format: !game customcounter <name> <+/-><number of slots>
-!game customecounter luck +2
 !g cc luck -1
 ```

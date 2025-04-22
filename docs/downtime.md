@@ -204,7 +204,27 @@ Favors earned need not be expended immediately, but only a certain number can be
 **Sources:** XGtE
 
 ### Research
-TBD
+The world contains many secrets waiting to be discovered and understood. Such things are generally only truly able to be understood with field research or with more experience, yet it is never unwise to go to a library and seek past knowledge to aid in your current endeavors, or simply run tests in a safer, and academic environment.
+
+**Requirements:** Approval from the DM before the quest is run or approval from a DM involved with the subject you wish to research.
+
+**Resources:** A character needs access to a well stocked library to conduct research. Assuming such access is available, conducting research requires one downtime day and at least 50 gp spent on materials, library costs, and other expenses.
+
+**Resolution:** The character declares the focus of the research: a specific creature, person, place, or thing. After one downtime day, the character rolls Intelligence (Investigation). Additionally the character gains a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6, representing the hiring of additional assistants to aid in research.
+
+After rolling, consult the table below for the results of your research and if you gain any follow-up questions. The DM may allow tangential questions if they pop up (for instance if your research reveals a location after the first question you may ask your second question about the location, etc.) but may curate the questions how they wish.
+
+| Check Total | Outcome                                                                                                                                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-5         | No effect.                                                                                                                                                                                                                   |
+| 6-10        | DM will only tell you something interesting. It’s on you to make it useful.                                                                                                                                                  |
+| 11-20       | DM will tell you something interesting and useful about the subject relevant to your situation.                                                                                                                              |
+| 21-25       | Same as 11-20, but you may ask one follow-up question.                                                                                                                                                                       |
+| 26-30       | Same as 11-20, but you may ask two follow-up questions.                                                                                                                                                                      |
+| 31-35       | Same as 11-20, but you may ask three follow-up questions.                                                                                                                                                                    |
+| 36+         | Same as 11-20, but you may ask the DM "What is the question I should be asking?" The DM will inform you what question to ask, and will then answer that question honestly. You may then ask three other follow-up questions. |
+
+**Sources:** XGtE, CWM
 
 ### Scribing a Scroll
 With time, patience, and skill, a spellcaster can transfer a spell to a scroll, creating a spell scroll.

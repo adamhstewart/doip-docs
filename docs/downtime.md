@@ -210,7 +210,7 @@ The world contains many secrets waiting to be discovered and understood. Such th
 
 **Resources:** A character needs access to a well stocked library to conduct research. Assuming such access is available, conducting research requires one downtime day and at least 50 gp spent on materials, library costs, and other expenses.
 
-**Resolution:** The character declares the focus of the research: a specific creature, person, place, or thing. After one downtime day, the character rolls Intelligence (Investigation). Additionally the character gains a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6, representing the hiring of additional assistants to aid in research.
+**Resolution:** The character declares the focus of the research: a specific creature, person, place, or thing. After five downtime days, the character rolls Intelligence (Investigation). Additionally the character gains a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6, representing the hiring of additional assistants to aid in research.
 
 After rolling, consult the table below for the results of your research and if you gain any follow-up questions. The DM may allow tangential questions if they pop up (for instance if your research reveals a location after the first question you may ask your second question about the location, etc.) but may curate the questions how they wish.
 

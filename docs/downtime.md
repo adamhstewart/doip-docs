@@ -34,7 +34,58 @@ Downtime activities don't happen, and their material gains aren't realized, unti
 This list of Activities is compiled from the [Player's Handbook](https://www.dndbeyond.com/sources/dnd/phb-2024/equipment#CraftingEquipment) (PHB), [The Dungeon Master's Guide](https://www.dndbeyond.com/sources/dnd/dmg-2024/treasure#CraftingMagicItems) (DMG), [Xanathar's Guide to Everything](https://www.dndbeyond.com/sources/dnd/xgte/downtime-revisited#Chapter2DowntimeRevisited) (XGtE), and [Colville West Marches Downtime Documentation](https://www.gmbinder.com/share/-LX_OTKbS5mc-IZmaOF0) (CWM). It's not exhaustive of all of the activities that a player could engage in - if you have another idea, contact the DM.
 
 ### Buying/Selling a Magic Item
-TBD
+
+#### Buying a Magic Item
+Purchasing a magic item requires time and money to seek out and contact people willing to sell items. Even then, there is no guarantee a seller will have the items a character desires.
+
+**Resources.** Finding magic items to purchase requires at least 5 days of effort and 100 gp in expenses. Spending more time and money increases your chance of finding a high-quality item.
+
+**Resolution.** A character seeking to buy a magic item makes a Charisma (Persuasion) check to determine the quality of the seller found. The character gains a +1 bonus on the check for every 5 days beyond the first that is spent seeking a seller and a +1 bonus for every additional 100 gp spent on the search, up to a maximum bonus of +10.
+
+The total of the check dictates which table (in the DMG) the DM will roll on to determine which items are on the market. The price will be determined by a DM roll on the following table:
+
+| Rarity    | Asking Price\*        |
+| --------- | --------------------- |
+| Common    | (1d6 + 1) × 10 gp     |
+| Uncommon  | 1d6 × 100 gp          |
+| Rare      | 2d10 × 1,000 gp       |
+| Very rare | (1d4 + 1) × 10,000 gp |
+| Legendary | 2d6 × 25,000 gp       |
+
+If you are seeking a particular item, tell the DM in advance of your persuasion roll, and it will appear on the list of items for sale when satisfying the following check:
+
+| Rarity | Min DC |
+| ---- | ---- |
+| Common | 10 |
+| Uncommon | 15 |
+| Rare | 20 |
+| Very Rare | 25 |
+| Legendary | 50 |
+
+#### Selling a Magic Item
+Selling a magic item is by no means an easy task. Con artists and thieves are always looking out for an easy score, and there’s no guarantee that a character will receive a good offer even if a legitimate buyer is found.
+
+**Resources.** A character can find a buyer for one magic item by spending 5 days and 25 gp, which is used to spread word of the desired sale. A character must pick one item at a time to sell.
+
+**Resolution.** A character who wants to sell an item must make a Charisma (Persuasion) check to determine what kind of offer comes in. The character can always opt not to sell, instead forfeiting the workweek of effort and trying again later. Use the Magic Item Base Prices and Magic Item Offer tables to determine the sale price.
+
+| Rarity    | Base Price\* |
+| --------- | ------------ |
+| Common    | 100 gp       |
+| Uncommon  | 400 gp       |
+| Rare      | 4,000 gp     |
+| Very rare | 40,000 gp    |
+| Legendary | 200,000 gp   |
+
+*Halved for a consumable item like a potion or scroll
+
+| Check Total | Offer              |
+| ----------- | ------------------ |
+| 1–10        | 50% of base price  |
+| 11–20       | 100% of base price |
+| 21+         | 150% of base price |
+
+**Sources:** XGtE, DMG
 
 ### Carousing
 Drunken debauchery and merriment among adventurers is anything but rare, as life is hard and celebrations make it all better. It could be that you just saw a fellow adventurer get brutally mauled and nothing of their corpse remains, you could have found the lost city of Don Juan and are rich beyond your wildest dreams, or maybe you just wanna see what happens, regardless you’re drinking, and doing so in copious amounts.
@@ -66,6 +117,7 @@ Regardless of the outcome, make a DC 10 Constitution check. On a failure your ch
 ### Crafting
 A character who has the time, the money, and the needed tools can use downtime to craft armor, weapons, clothing, or other kinds of non-magical items.
 
+#### Crafting Non-Magical Items
 **Resources:** In addition to the appropriate tools for the item to be crafted, a character needs raw materials worth half of the item’s selling cost and a number of downtime days equal to its gold cost divided by: your tool modifier or 5, whichever is larger.  Multiple characters can combine their efforts. Divide the time needed to create an item by the number of characters working on it. Use your judgment when determining how many characters can collaborate on an item.
 
 **Resolution:** With the proper tools and gold, the character successfully crafts the non-magical and can add it to their inventory, gift it to another player, or sell it for the full listed cost.
@@ -80,7 +132,40 @@ Potions of healing fall into a special category for item crafting, separate from
 | Superior healing | 15 days | 1,000 gp |
 | Supreme healing | 20 days | 10,000 gp |
 
-**Sources:** XGtE, CWM
+#### Crafting Magic Items
+To craft a magic item, you and any assistants must have proficiency in the required tool to make an item (and have the tool) or have proficiency in the Arcana skill. For more information on the tools, see the Player’s Handbook.
+
+**Time and Cost.** Crafting a magic item takes an amount of time and money based on the item’s rarity as shown in the Magic Item Crafting Time and Cost table.
+
+| Item Rarity | Days\* | Cost\*     |
+| ----------- | ----------- | ---------- |
+| Common      | 5           | 50 gp      |
+| Uncommon    | 10          | 200 gp     |
+| Rare        | 50          | 2,000 gp   |
+| Very rare   | 125         | 20,000 gp  |
+| Legendary   | 250         | 100,000 gp |
+
+*Halved for a consumable item like a potion or scroll
+
+**Assistants.** Characters can combine their efforts to shorten the crafting time. Divide the time needed to create an item by the number of characters working on it. Normally, only one other character can assist you, but the DM might allow more assistants.
+
+**Raw Materials.** The cost in the table above represents the raw materials needed to make a magic item. Rather than pay the full amount shown in the table the player may ask the DM for a quest to defeat a monster for half of the cost of the raw materials. The monster type will be determined by teh following table:
+
+| Item Rarity | CR Range |
+| ----------- | -------- |
+| Common      | N/A      |
+| Uncommon    | 4–8      |
+| Rare        | 9–12     |
+| Very rare   | 13–18    |
+| Legendary   | 19+      |
+
+If a magic item incorporates an item that has a purchase cost (such as a weapon or a suit of armor), you must also pay that entire cost or craft that item using the rules in the Player’s Handbook. For example, to make +1 Armor (Plate Armor), you must pay 3,500 GP or craft the armor.
+
+**Spells.** If a magic item allows its user to cast any spells from it, you must have all those spells prepared every day you spend crafting the item.                                                   |
+
+If all the above requirements are met, the result of the process is a magic item of the desired sort.
+
+**Sources:** XGtE, CWM, DMG
 
 ### Crime
 Sometimes it pays to be bad. This activity gives a character the chance to make some extra cash, at the risk of arrest.

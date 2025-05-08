@@ -256,7 +256,15 @@ Consult the Gambling Results table to see how the character did.
 **Sources:** XGtE, CWM
 
 ### Relaxation/Recuperation
-TBD
+Sometimes the best thing to do between adventures is relax. Whether a character wants a hard-earned vacation or needs to recover from injuries, relaxation is the ideal option for adventurers who need a break. This option is also ideal for players who don’t want to make use of the downtime system.
+
+**Resources** Relaxation requires 5 days. A character needs to maintain at least a modest lifestyle while relaxing to gain the benefit of the activity.
+
+**Resolution.** Characters who maintain at least a modest lifestyle while relaxing gain several benefits. While relaxing, a character gains advantage on saving throws to recover from long-acting diseases and poisons. In addition, at the end of the week, a character can end one effect that keeps the character from regaining hit points, or can restore one ability score that has been reduced to less than its normal value. This benefit cannot be used if the harmful effect was caused by a spell or some other magical effect with an ongoing duration.
+
+If the character has no conditions that need recover the benefits of any 5-day period of relaxation are a pool of temporary hit points equal to twice the level of the character. Each pool of hit points must be used together and another pool cannot be used until after a long rest. Any held pools expire at the completion of that level.
+
+**Sources:** XGtE, Homebrew
 
 ### Religious Service/Devotion
 Characters with a religious bent might want to spend downtime in service to a temple, either by attending rites or by proselytizing in the community. Someone who undertakes this activity has a chance of winning the favor of the temple’s leaders.
@@ -354,4 +362,27 @@ Expertise may be gained in any skill, or tool with which you are already profici
 **Sources:** XGtE, CWM
 
 ### Work/Trade
-TBD
+When all else fails, an adventurer can turn to an honest trade to earn a living. This activity represents a character’s attempt to find temporary work, the quality and wages of which are difficult to predict.
+
+**Resources.** Performing a job requires 5 days of effort.
+
+**Resolution.** To determine how much money a character earns, the character makes an ability check and consult the Wages table to see how much money is generated according to the total of the check.
+
+| Check Total | Earnings     |
+| ----------- | -------------|
+| 9 or lower  | 2 gp         |
+| 10–14       | 10 gp        |
+| 15–20       | 20 gp        |
+| 21+         | 50 gp        |
+
+
+**Complications.** Ordinary work is rarely filled with significant complications. Still, the Work Complications table can add some difficulties to a worker’s life. Each workweek of activity brings a 10 percent chance that a character encounters a complication.
+
+| d6 | Complication                                                                                                                                                                             |
+| -- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | A difficult customer or a fight with a coworker reduces the wages you earn by one category.\*                                                                                            |
+| 2  | Your employer’s financial difficulties result in your not being paid.\*                                                                                                                  |
+| 3  | A coworker with ties to an important family in town takes a dislike to you.\*                                                                                                            |
+| 4  | Your employer is involved with a dark cult or a criminal enterprise.                                                                                                                     |
+| 5  | A crime ring targets your business for extortion.\*                                                                                                                                      |
+| 6  | You gain a reputation for laziness (unjustified or not, as you choose), giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.\* |

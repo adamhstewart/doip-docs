@@ -8,7 +8,7 @@ Harvesting requires a skill check:
 - A success gets you a certain amount of the item.
 - A failure means the monster was too badly damaged, or you screwed up the process.
 
-We will use tables in the [Theive's Guild - Harvesting & Loot section](https://www.thievesguild.cc/harvest/)
+We will use tables in the [Theives Guild - Harvesting & Loot Section](https://www.thievesguild.cc/harvest/)
 
 For example, harvesting an Orchre Jelly has a DC10 Investigation check:
 

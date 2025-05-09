@@ -326,18 +326,18 @@ With time, patience, and skill, a spellcaster can transfer a spell to a scroll, 
 
 **Resources:** You must have a number of downtime days and gp according to the spell level you wish to craft. See below table. Scrolls are always created and paid for at the minimum level of the spell.
 
-| Spell Level | Time     | Cost       |
-|-------------|----------|------------|
-| Cantrip     | 1 day    | 15 gp      |
-| 1st         | 2 day    | 75 gp      |
-| 2nd         | 3 days   | 250 gp     |
-| 3rd         | 5 days   | 500 gp     |
-| 4th         | 10 days  | 2,500 gp   |
-| 5th         | 20 days  | 5,000 gp   |
-| 6th         | 40 days  | 15,000 gp  |
-| 7th         | 80 days  | 25,000 gp  |
-| 8th         | 160 days | 50,000 gp  |
-| 9th         | 240 days | 250,000 gp |
+| Spell Level | Time     | Cost      |
+| ----------- | -------- | --------- |
+| Cantrip     | 1 day    | 15 GP     |
+| 1           | 1 day    | 25 GP     |
+| 2           | 3 days   | 100 GP    |
+| 3           | 5 days   | 150 GP    |
+| 4           | 10 days  | 1,000 GP  |
+| 5           | 25 days  | 1,500 GP  |
+| 6           | 40 days  | 10,000 GP |
+| 7           | 50 days  | 12,500 GP |
+| 8           | 60 days  | 15,000 GP |
+| 9           | 120 days | 50,000 GP |
 
 **Resolution:** You create a scroll of the desired spell.
 

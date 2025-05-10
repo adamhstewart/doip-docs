@@ -39,8 +39,8 @@ phrase: When you hit a target with an attack roll and deal damage to it, you can
   also deal 1d10 Fire damage to that target.
 ```
 ### Healing Word (Enspelled Staff)
-
 ```yaml
+_v: 2
 name: Healing Word (Enspelled Staff)
 automation:
   - type: spell
@@ -48,14 +48,30 @@ automation:
     level: 1
     dc: "13"
     attackBonus: "5"
-    castingMod: null
-    parent: null
   - type: counter
     counter: Healing Word (Enspelled Staff)
     amount: "1"
     allowOverflow: false
-    errorBehaviour: warn
-_v: 2
-proper: true
+    errorBehaviour: raise
 verb: uses
+proper: true
+```
+
+### Blade Word (Enspelled Armor)
+```yaml
+_v: 2
+name: Blade Ward (Enspelled Armor)
+automation:
+  - type: spell
+    id: 2307
+    level: 1
+    dc: "13"
+    attackBonus: "5"
+  - type: counter
+    counter: Blade Ward (Enspelled Armor)
+    amount: "1"
+    allowOverflow: false
+    errorBehaviour: raise
+verb: uses
+proper: true
 ```

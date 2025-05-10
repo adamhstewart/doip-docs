@@ -63,7 +63,7 @@ _v: 2
 name: Blade Ward (Enspelled Armor)
 automation:
   - type: spell
-    id: 2307
+    id: 2618931
     level: 1
     dc: "13"
     attackBonus: "5"

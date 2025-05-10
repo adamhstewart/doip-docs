@@ -40,21 +40,23 @@ phrase: When you hit a target with an attack roll and deal damage to it, you can
 ```
 ### Healing Word (Enspelled Staff)
 ```yaml
-_v: 2
 name: Healing Word (Enspelled Staff)
 automation:
   - type: spell
-    id: 2140
+    id: 2619143
     level: 1
     dc: "13"
     attackBonus: "5"
+    castingMod: null
+    parent: null
   - type: counter
     counter: Healing Word (Enspelled Staff)
     amount: "1"
     allowOverflow: false
     errorBehaviour: raise
-verb: uses
+_v: 2
 proper: true
+verb: uses
 ```
 
 ### Blade Word (Enspelled Armor)

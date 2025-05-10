@@ -103,3 +103,8 @@ Manually edit your character’s available custom counters:
 # Format: !game customcounter <name> <+/-><number of slots>
 !g cc luck -1
 ```
+
+## Creating a counter
+```powershell
+!cc create "Healing Word (Enspelled Staff)" -min 0 -max 6 -type bubble -reset long -resetby 1d6 -value 6
+```

@@ -38,3 +38,23 @@ verb: adds damage with
 phrase: When you hit a target with an attack roll and deal damage to it, you can
   also deal 1d10 Fire damage to that target.
 ```
+### Healing Word (Enspelled Staff)
+```yaml
+- name: Healing Word (Enspelled Staff)
+  automation:
+    - type: spell
+      id: 2140
+      level: 1
+      dc: "13"
+      attackBonus: "5"
+      castingMod: null
+      parent: null
+    - type: counter
+      counter: Healing Word (Enspelled Staff)
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+  _v: 2
+  proper: true
+  verb: uses
+  ```

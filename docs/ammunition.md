@@ -1,4 +1,4 @@
-# Ammunition tracking
+# Ammunition Tracking
 If your character uses a bow or some other weapon that uses ammunition, you can track your inventory with several snippets.
 
 
@@ -32,7 +32,7 @@ You can also collect your arrows at the end of a battle (requires a minute of ti
 Before using, you need to set up counters to track your inventory
 
 ```sh
-# Setup counters for arrown
+# Setup counters for arrows
 !cc create "Arrows"
 !cc create "Used Arrows"
 ```

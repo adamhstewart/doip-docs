@@ -237,6 +237,25 @@ In order to actually extend the duration on a spell, you need to add a flag on t
 ```
 This would cast the Calm Emotions spell on Goblin 1 and would add the effect for 20 rounds (2 minutes).
 
+### Wild Magic
+The Wild Magic Alias helps with wild magic surges both with and without Tides of Chaos.
+
+If you are rolling to "try to surge" after casting a sorcerer spell you can use:
+```sh
+!wms roll
+```
+
+This will both roll for a surge (1d20) and on a 20 will roll on the Wild Magic Surge Table (1d100) and display the result.
+
+If you are rolling because you used Tides of Chaos and then cast a sorcerer spell, you can use `!wms tide` to both roll on the Wild Magic Surge Table and update your Tides of Chaos counter. The series of rolls would like something like this:
+
+```sh
+!a tides                    ## Activates tides of Chaos and reduces the counter
+!check persuasion adv       ## Some d20 roll with advantage
+!cast "Some Sorcerer Spell" ## Cast a sorcerer spell
+!wms tide                   ## Rolls on the WMS table automatically  and Resets the ToC counter.
+```
+
 ## Warlock
 ### Hex
 To track the uses and set the "Hex" effect on the combatant `!cast "Hex" -t GO1`

@@ -1,5 +1,5 @@
 # Bastions
-Generally, we will follow the bastion rules as laid out in the DNG (Chapter 8), particularly in terms of acquiring bastions, the number of rooms and special facilities.
+Generally, we will follow the bastion rules as laid out in the DMG (Chapter 8), particularly in terms of acquiring bastions, the number of rooms and special facilities.
 
 ## Entry into the Campaign
 In order to enter into the campaign and have mechanical benefit, the bastion needs three things:

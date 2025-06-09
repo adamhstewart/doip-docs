@@ -52,10 +52,13 @@ There are several significant exceptions from the DMG on the mechanical benefits
 ### Benefits Table
 | Special Facility| Order | Material Gain |
 |-----|-----|-----|
+| Arcane Study | Craft: Magic Item | A workshop can produce any common or uncommon magic item on the [DMG Arcana Table](https://www.dndbeyond.com/sources/dnd/dmg-2024/random-magic-items#ArcanaTables). Each bastion turn gives you **50 GP** worth of crafting (use the table from "[Crafting a Magic Item](../downtime/#crafting-magic-items)). |
 | Garden - Decorative | Harvest | 10 exquisite floral bouquets (worth 5 GP each), ten vials of Perfume, or ten Candles. Can be added to inventory or sold for **50 GP**. |
 | Garden - Food | Harvest | Garden of delicious mushrooms or vegetables	100 days worth of Rations. Can be added to inventory or sold for **50 GP**. |
 | Garden - Herb | Harvest | Garden of rare herbs which are the used to create either ten Healer’s Kits or two Potions of Healing. Can be added to inventory or sold for **50 GP**. |
 | Garden - Poison | Harvest | Garden stocked with plants and fungi, which are then used to create either two vials of Antitoxin or one vial of Basic Poison. Can be added to inventory or sold for **50 GP**. |
+| Workshop | Craft | A workshop can produce any non-magical equipment item in the PHB that can be crafted with the tools chosen when the facility was dedicated. Each bastion turn gives you **100 GP** worth of crafting (using the PHB value). |
+| Workshop | Craft: Magic Item | A workshop can produce any common or uncommon magic item on the [DMG Arcana Table](https://www.dndbeyond.com/sources/dnd/dmg-2024/random-magic-items#ArcanaTables) that can be crafted with the tools chosen when the facility was dedicated. Each bastion turn gives you **50 GP** worth of crafting (use the table from "[Crafting a Magic Item](../downtime/#crafting-magic-items)). |
 
 ## Hirelings
 Special facilities have a number of hirelings designated by its type. These hirelings are supported by the bastion activities and don't cost you additional gold.
